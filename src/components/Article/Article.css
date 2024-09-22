@@ -1,0 +1,26 @@
+.article {
+  /* display: flex; */
+}
+
+.article h2 {
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+}
+.article ul {
+  list-style: none; /* Remove default list styling */
+  padding-left: 30px;
+}
+
+.article ul li {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  margin-bottom: 1em;
+}
+.marker {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #61dafb;
+  border-radius: 50%;
+  margin-right: 20px; /* Space between marker and text */
+}

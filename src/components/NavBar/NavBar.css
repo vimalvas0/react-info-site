@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #21222a;
+  color: white;
+  padding: 10px 10px;
+  height: 100px;
+  align-items: center;
+}
+
+nav .logo {
+  display: flex;
+  margin-left: 1.5em;
+  justify-content: space-between;
+  /* width: 100%; */
+  width: 180px;
+  color: #61dafb;
+}
+
+nav .title {
+  margin-right: 1.5em;
+}

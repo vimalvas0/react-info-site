@@ -1,0 +1,23 @@
+.container {
+  width: 70%;
+  margin: auto;
+  position: relative; /* Ensure the pseudo-element is positioned relative to #root */
+  height: 100vh; /* Ensure the root element takes the full viewport height */
+  background-color: #282d35;
+  color: white;
+}
+
+.container::before {
+  content: "";
+  background: url("/images/react.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  /* background-size: contain; Ensure the image scales properly */
+  opacity: 0.5; /* Adjust the alpha value here (0.0 to 1.0) */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2; /* Ensure the pseudo-element is behind other content */
+}
